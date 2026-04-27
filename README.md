@@ -1,11 +1,19 @@
-# SQL Samples
+# Spikalytics SQL Samples
 
-Database schema, functions, and sample queries for the Spikalytics project.
+This repository contains sample PostgreSQL/Supabase SQL from a volleyball analytics web application I built.
 
-## Structure
+The app allows coaches to upload games, tag volleyball events, connect players to teams, and generate player/team dashboards.
 
-- **schema/** - Database table definitions, relationships, and indexes
-- **security/** - Row-level security policies
-- **functions/** - Custom SQL functions
-- **sample_queries/** - Example queries for various dashboards
-- **notes/** - Database design documentation
+## What this demonstrates
+
+- PostgreSQL table design
+- Foreign key relationships
+- Join tables
+- Supabase Row Level Security policies
+- SQL functions used as Supabase RPC calls
+- Dashboard-style reporting queries
+
+## Notes
+
+All sample data, UUIDs, join codes, and names have been anonymized.
+No production credentials or private user data are included.
